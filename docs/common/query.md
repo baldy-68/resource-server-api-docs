@@ -70,4 +70,8 @@ Each field-operator-value object has the field name as the key, and then an obje
 
 Operators can be any one of the follow: `equal_to`, `less_than`, `greater_than`, `less_than_or_equal_to`, `greater_than_or_equal_to`, `between`, `any_of`, `all_of`
 
+Example:
+
+GET v1/opportunities?api_keu=API_KEY&query[attributes][categories][operator]=equal_to&query[attributes][categories][value][ ]=Shelters
+
 See also [Pagination Parameters](/docs/common/pagination.md)
