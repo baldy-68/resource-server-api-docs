@@ -72,6 +72,6 @@ Operators can be any one of the follow: `equal_to`, `less_than`, `greater_than`,
 
 Example:
 
-    GET v1/opportunities?api_keu=API_KEY&query[attributes][categories][operator]=equal_to&query[attributes][categories][value][ ]=Shelters
+    GET v1/opportunities?api_key=API_KEY&query[attributes][categories][operator]=equal_to&query[attributes][categories][value][ ]=Shelters
 
 See also [Pagination Parameters](/docs/common/pagination.md)
